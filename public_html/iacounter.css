@@ -1,0 +1,47 @@
+body {
+    margin:0;border:0;padding:0;
+    font-family:monospace;
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+div#wrapper{
+    display:table;
+    width:100%;
+    height:100%;
+}
+div#content{
+    display:table-cell;vertical-align:middle;
+    background-image: url('ialogoreduced.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height:100%;
+    }
+span#header, span#footer {
+    font-size:400%;
+    font-weight:bold;
+    }
+span#counter {
+    font-size:1000%;
+    font-weight:bold;
+    }
+p#upper-left, p#upper-right {
+    position:absolute;
+    margin:0;border:0;padding:0;
+    top:10px;
+}
+p#upper-left {
+    left:10px;
+    text-align:left;
+}
+p#upper-right{
+    right:10px;
+    text-align:right;
+}
