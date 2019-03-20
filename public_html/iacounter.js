@@ -5,7 +5,6 @@
     
 var timenow = new Date().getTime();
 var period = 20; // period update in miliseconds
-var fillnow = sizeinit + ((timenow-timeinit)/1000) * fillrate;
 var spliter = ",";
 var spliter_r = new RegExp(/(^|\s)(\d+)(\d{3})/);
 
@@ -47,7 +46,7 @@ function init() {
 
 function update() {
    timenow2 = new Date().getTime();
-   if (Math.round(((timenow2-timenow)/1000)+1) % 600 == 0) { window.setTimeout(window.location.reload(), 1100); } //refresh page
+   if (Math.round(((timenow2-timenow)/1000)+1) % 300 == 0) { window.setTimeout(window.location.reload(), 1100); } //refresh page
    sizenow = sizeinit + (timenow2-timeinit) * fillrate;
    sizenowtext = ""+Math.round(sizenow);
    for(var i=3; i<sizenowtext.length; i+=3) {
