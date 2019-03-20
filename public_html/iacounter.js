@@ -27,7 +27,7 @@ function init() {
 
     switch(lang){
         case "example":
-            header='<a href="http://www.wikimedia.org"></a>:';
+            header='<a href="https://archive.org"></a>:';
             spliter='&nbsp;';
             break;
         case "es":

@@ -16,7 +16,7 @@
     
     </p>
 
-    <span id="header">Total bytes in <a href="//archive.org">Internet Archive</a>:</span><br/>
+    <span id="header">Total bytes in <a href="https://archive.org">Internet Archive</a>:</span><br/>
 
     <span id="counter">&nbsp;</span><br/>
 
